@@ -48,7 +48,7 @@ export const getDashboardStats = ()    => api.get('/dashboard')
 export const getAdminStudents   = ()     => api.get('/admin/students')
 export const deleteStudent      = (id)   => api.delete(`/admin/students/${id}`)
 
-export const addMockQuestion    = (data) => api.post('/admin/mocktest', data)
+export const addMockQuestion    = (data) => api.post('/mocktest/submit', data)
 
 export const getAdminInterviews = ()     => api.get('/admin/interviews')
 export const getAdminStats      = ()     => api.get('/admin/dashboard')
